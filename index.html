@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="main-container h-screen flex justify-center items-center bg-sky-400">
+        <div class="form">
+            <h1 class="text-5xl text-white text-center my-4">Contact With Me</h1>
+            <div class="mb-3">
+                <label class="text-white" for="name">Name :</label>
+                <p><input type="text" name="" id="name" placeholder="Type your name" class="border w-80 py-1 px-4">
+                    <button id="delete-name" class="btn bg-rose-600 text-white px-7 rounded-full py-1 mx-4">Delete
+                        Name</button>
+                    <button id="send-name" class="btn bg-green-600 text-white px-7 rounded-full py-1">Send
+                        Name</button>
+                </p>
+            </div>
+            <div class="mb-3">
+                <label class="text-white" for="name">Email :</label>
+                <p><input type="email" name="" id="email" placeholder="Type your email" class="border w-80 py-1 px-4">
+                    <button id="delete-email" class="btn bg-rose-600 text-white px-7 rounded-full py-1 mx-4">Delete
+                        Name</button>
+                    <button id="send-email" class="btn bg-green-600 text-white px-7 rounded-full py-1">Send
+                        Name</button>
+                </p>
+            </div>
+            <div class="mb-3">
+                <label class="text-white" for="name">Message :</label>
+                <p><textarea name="" id="message" cols="42" rows="3" class="border"></textarea>
+                    <button id="delete-msg" class="btn bg-rose-600 text-white px-7 rounded-full py-1 mx-4">Delete
+                        Name</button>
+                    <button id="send-msg" class="btn bg-green-600 text-white px-7 rounded-full py-1">Send
+                        Name</button>
+                </p>
+            </div>
+            <div class="text-center">
+                <button id="send" class="btn mr-3 bg-green-600 text-white px-9 mt-4 rounded-full py-2">Send</button>
+                <button id="reset" class="btn bg-purple-700 text-white px-9 mt-4 rounded-full py-2">Reset</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
